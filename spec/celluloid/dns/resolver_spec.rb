@@ -148,5 +148,21 @@ module Celluloid::DNS::ResolverSpec
 			
 			expect(addresses.size).to be > 0
 		end
+
+		it "should resolve punycode encoded IDNs" do
+			resolver = Celluloid::DNS::Resolver.new([[:udp, "8.8.8.8", 53], [:tcp, "8.8.8.8", 53]])
+
+			addresses = resolver.addresses_for('xn--80ajiqg.xn--90ae')
+
+			expect(addresses.size).to be > 0
+		end
+
+		it "should resolve raw UTF-8 IDNs" do
+			resolver = Celluloid::DNS::Resolver.new([[:udp, "8.8.8.8", 53], [:tcp, "8.8.8.8", 53]])
+
+			addresses = resolver.addresses_for('имена.бг')
+
+			expect(addresses.size).to be > 0
+		end
 	end
 end
