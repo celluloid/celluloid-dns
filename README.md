@@ -1,5 +1,7 @@
 ![Celluloid::DNS](https://github.com/celluloid/celluloid-dns/raw/master/logo.png)
 
+**`Celluloid::DNS` is dead. Long live [`Celluloid::DNS`](https://github.com/socketry/socketry-dns)**
+
 Celluloid::DNS is a high-performance DNS client resolver and server which can be easily integrated into other projects or used as a stand-alone daemon. It was forked from [RubyDNS][1] which is now implemented in terms of this library.
 
 [1]: https://github.com/ioquatix/rubydns
