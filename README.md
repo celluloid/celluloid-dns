@@ -1,16 +1,15 @@
 ![Celluloid::DNS](https://github.com/celluloid/celluloid-dns/raw/master/logo.png)
 
-**`Celluloid::DNS` is dead. Long live [`Celluloid::DNS`](https://github.com/socketry/socketry-dns)**
+**`Celluloid::DNS` is dead. Long live [`Socketry::DNS`](https://github.com/socketry/socketry-dns)**
 
 Celluloid::DNS is a high-performance DNS client resolver and server which can be easily integrated into other projects or used as a stand-alone daemon. It was forked from [RubyDNS][1] which is now implemented in terms of this library.
 
 [1]: https://github.com/ioquatix/rubydns
 
 [![Gem Version](https://badge.fury.io/rb/celluloid-dns.svg)](http://rubygems.org/gems/celluloid-dns)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/celluloid/celluloid/blob/master/LICENSE.txt)
 [![Build Status](https://secure.travis-ci.org/celluloid/celluloid-dns.svg?branch=master)](http://travis-ci.org/celluloid/celluloid-dns)
-[![Dependency Status](https://gemnasium.com/celluloid/celluloid-dns.svg)](https://gemnasium.com/celluloid/celluloid-dns)
-[![Code Climate](https://codeclimate.com/github/celluloid/celluloid-dns.svg)](https://codeclimate.com/github/celluloid/celluloid-dns)
-[![Coverage Status](https://coveralls.io/repos/celluloid/celluloid-dns/badge.svg?branch=master)](https://coveralls.io/r/celluloid/celluloid-dns)
+[![Maintained: no](https://img.shields.io/maintenance/no/2016.svg)](https://github.com/celluloid/celluloid/issues/779)
 
 ## Installation
 
