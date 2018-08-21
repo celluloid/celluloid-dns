@@ -9,7 +9,7 @@ Celluloid::DNS is a high-performance DNS client resolver and server which can be
 [![Gem Version](https://badge.fury.io/rb/celluloid-dns.svg)](http://rubygems.org/gems/celluloid-dns)
 [![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/celluloid/celluloid/blob/master/LICENSE.txt)
 [![Build Status](https://secure.travis-ci.org/celluloid/celluloid-dns.svg?branch=master)](http://travis-ci.org/celluloid/celluloid-dns)
-[![Maintained: no](https://img.shields.io/maintenance/no/2016.svg)](https://github.com/celluloid/celluloid/issues/779)
+[![Maintained: no](https://img.shields.io/maintenance/no/2017.svg)](https://github.com/celluloid/celluloid/issues/779)
 
 ## Installation
 
